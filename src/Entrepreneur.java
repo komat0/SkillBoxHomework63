@@ -1,6 +1,8 @@
 public class Entrepreneur extends Client {
 
-    private double amount;
+    public Entrepreneur(double amount) {
+        super.amount = amount;
+    }
 
     @Override
     public void getAccountInfo() {

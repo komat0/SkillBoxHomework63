@@ -1,6 +1,8 @@
 public class LegalEntity extends Client {
 
-    double amount;
+    public LegalEntity(double amount) {
+        super.amount = amount;
+    }
 
     @Override
     public void getAccountInfo() {

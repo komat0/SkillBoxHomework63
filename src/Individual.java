@@ -1,6 +1,8 @@
 public class Individual extends Client {
 
-    double amount;
+    public Individual(double amount) {
+        super.amount = amount;
+    }
 
     @Override
     public void getAccountInfo() {
