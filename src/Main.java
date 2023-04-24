@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
 
         Client clientAccount = new LegalEntity();
-        clientAccount.getAmount();
         clientAccount.getAccountInfo();
         clientAccount.addMoney(900);
         clientAccount.addMoney(1000);

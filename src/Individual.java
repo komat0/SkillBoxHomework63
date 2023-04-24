@@ -7,7 +7,8 @@ public class Individual extends Client {
         System.out.println("""
                 Счёт 'Индивидуальный'. Условия:
                 Пополнение: Без комиссий.
-                Снятие: Без комиссий.""");
+                Снятие: Без комиссий.
+                Сумма на счете:\s""" + amount);
     }
 
     @Override

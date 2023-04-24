@@ -9,7 +9,8 @@ public class Entrepreneur extends Client {
                 Пополнение:\s
                 C комиссией 1%, если сумма меньше 1000 рублей.\s
                 С комиссией 0,5%, если сумма больше либо равна 1000 рублей.
-                Снятие: Без комиссий.""");
+                Снятие: Без комиссий.
+                Сумма на счете:""" + amount);
     }
 
     @Override
@@ -35,7 +36,7 @@ public class Entrepreneur extends Client {
         if (amount >= withdrawMoney) {
             amount -= withdrawMoney;
             System.out.println("Снятие средств с предпринимательского счета на сумму: " + withdrawMoney +
-                    ".\nТеперь на счету " + amount);
+                               ".\nТеперь на счету " + amount);
         } else {
             System.out.println("Недостаточно средст на счете");
         }

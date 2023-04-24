@@ -4,11 +4,6 @@ abstract public class Client {
 //    Каждый класс должен содержать метод, который выводит информацию в консоль о счёте:
 //    условие пополнения, условие снятия и баланс.
 
-    private double amount;
-
-    public void getAmount(){
-        System.out.println(amount);
-    }
     abstract public void getAccountInfo();
 
     abstract public void addMoney(double addAmount);

@@ -7,7 +7,8 @@ public class LegalEntity extends Client {
         System.out.println("""
                 Счёт 'Юридическое лицо'. Условия:
                 Пополнение: Без комиссий.
-                Снятие: Комиссия 1%""");
+                Снятие: Комиссия 1%
+                Сумма на счете:\s""" + amount);
     }
 
     @Override
